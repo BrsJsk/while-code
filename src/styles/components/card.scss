@@ -2,6 +2,8 @@
   border: 3px solid #5E8D87;
   padding: 9px;
   margin: 13px 3px 3px;
+  display: flex;
+  flex-direction: column;
 
   .card-header {
     display: flex;

@@ -4,9 +4,10 @@
     <list default="true" id="d40d056c-f408-4da4-9341-623621a69663" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/BorderCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/BorderCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card/CardHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/CardHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/card.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -67,7 +69,7 @@
       <workItem from="1608381412923" duration="192000" />
       <workItem from="1608381837813" duration="1091000" />
       <workItem from="1608383374513" duration="1759000" />
-      <workItem from="1608401553083" duration="478000" />
+      <workItem from="1608401553083" duration="1654000" />
     </task>
     <task id="LOCAL-00001" summary="Border card placeholder">
       <created>1608401912590</created>
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608401912591</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Border card icon">
+      <created>1608402062952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608402062952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Border card placeholder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Border card placeholder" />
+    <MESSAGE value="Border card icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Border card icon" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
