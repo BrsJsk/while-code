@@ -2,10 +2,18 @@ import React from "react";
 import "../../styles/components/card.scss";
 import CardHeader from "./CardHeader";
 
-export function BorderCard({ width = "100%", height = "150px" }) {
+interface BorderCardProps {
+    width?: string;
+    height?: string;
+    placeholder: string;
+}
+
+export function BorderCard(props: BorderCardProps) {
+    const width = props.width === undefined ? "100%" : props.width;
+    const height = props?.height === undefined ? "150px" : props.height;
   return (
     <div className="border-card" style={{ width, height }}>
-      <CardHeader placeholder="Border" />
+      <CardHeader placeholder={props.placeholder} />
     </div>
   );
 }
