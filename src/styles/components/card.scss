@@ -1,0 +1,12 @@
+.border-card {
+  border: 3px solid #5E8D87;
+  padding: 9px;
+  margin: 3px;
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5E8D87;
+  }
+}
