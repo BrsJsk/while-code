@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FiSettings } from "react-icons/fi";
 interface CardHeaderProps {
   placeholder: string;
 }
@@ -9,7 +9,9 @@ function CardHeader(props: CardHeaderProps) {
   return (
     <div className="card-header">
       <span>{placeholder}</span>
-      <span>I</span>
+      <span>
+        <FiSettings />
+      </span>
     </div>
   );
 }
